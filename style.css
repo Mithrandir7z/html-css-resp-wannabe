@@ -75,7 +75,11 @@ img {
 
 /*Responsive*/
 
-@media screen and (max-width: 819px) {
+@media screen and (max-width: 420px) {
+
+  .row {
+    width: 100%;
+  }
   
   #lezioni .row>.left,
   #lezioni .row>.right {
@@ -87,6 +91,9 @@ img {
   #steps .row>.right {
     width: 100%;
   }
-
   
+  img {
+    height: 100px;
+    width: auto;
+  }
 }
